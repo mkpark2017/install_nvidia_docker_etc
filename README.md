@@ -6,6 +6,7 @@
 		3. Create blacklist file
 		4. `$ sudo nano /etc/modprobe.d/blacklist-nouveau.conf `
 		5. Writhe under lines
-		```blacklist nouveau 
+		```
+		blacklist nouveau 
 		options nouveau modeset=0
 		```
