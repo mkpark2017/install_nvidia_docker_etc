@@ -31,3 +31,7 @@
    		6. `$ sudo apt-get install -y nvidia-docker2`
    		7. `$ sudo systemctl restart docker`
    		8. Finally check installation `$ sudo docker run --rm --gpus all nvidia/cuda:11.0-base nvidia-smi`
+	4. Docker post-installation (refer. https://docs.docker.com/engine/install/linux-postinstall/)
+		1. `$ sudo groupadd docker`
+		2. `$ sudo usermod -aG docker $USER`
+		3. Reboot
