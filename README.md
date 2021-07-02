@@ -20,7 +20,7 @@
 		5. `$ sudo apt-get install nvidia-driver-460` (if you want to install "460" version)
 		6. `$ sudo reboot`
 		7. After reboot, check installation `$ nvidia-smi`
-	3. Install docker (refer. https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
+	3. Install nvidia-docker (refer. https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
 		1. `$ sudo apt-get update`
 		2. `$ sudo apt-get install -y apt-transport-https ca-certificates curl gnupg-agent software-properties-common`
 		3. `$ curl https://get.docker.com | sh && sudo systemctl --now enable docker`
