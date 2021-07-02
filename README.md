@@ -29,3 +29,5 @@
    && curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list`
    		5. `$ sudo apt-get update`
    		6. `$ sudo apt-get install -y nvidia-docker2`
+   		7. `$ sudo systemctl restart docker`
+   		8. Finally check installation `$ sudo docker run --rm --gpus all nvidia/cuda:11.0-base nvidia-smi`
