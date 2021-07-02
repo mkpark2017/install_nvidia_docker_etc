@@ -19,4 +19,5 @@
 		4. Move to "Additional Drivers" tap
 		5. `$ sudo apt-get install nvidia-driver-460` (if you want to install "460" version)
 		6. `$ sudo reboot`
+		7. After reboot, check installation `nvidia-smi`
 	3.
