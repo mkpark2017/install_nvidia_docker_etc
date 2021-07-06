@@ -37,10 +37,11 @@
 		3. Reboot
 2. Setup docker for CUDA+JUPYTER+OPENAI+VNC
 * Notice, command for remove all images and container 
-```
-$ docker stop $(docker ps -a -q)
-$ docker rm $(docker ps -a -q)
-$ docker rmi $(docker images -q) 
-```
+
+`$ docker stop $(docker ps -a -q)`
+`$ docker rm $(docker ps -a -q)`
+`$ docker rmi $(docker images -q) `
+
+
 	1. Setup docker with cuda10.1 cudnn7.6
 	Follow 
