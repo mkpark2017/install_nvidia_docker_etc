@@ -35,14 +35,21 @@
 		1. `$ sudo groupadd docker`
 		2. `$ sudo usermod -aG docker $USER`
 		3. Reboot
-2. Setup docker for CUDA+JUPYTER+OPENAI+VNC
+
+
+2. Setup docker for CUDA+JUPYTER+GYM+VNC+TENSORFLOW+PYTORCH
 	* Notice, command for remove all images and container 
 	```
 	$ docker stop $(docker ps -a -q)
 	$ docker rm $(docker ps -a -q)
 	$ docker rmi $(docker images -q) 
 	```
-	1. Setup docker with cuda10.1 cudnn7.6
-	Follow 
+	1. Setup docker which contains cuda10.1 cudnn7.6
+	* Follow https://github.com/mkpark2017/Docker_cuda_cudnn/tree/main/CUDA10.1
+	2. Setup docker containing gym+jupyter+vnc+tensorflow+pytorch
+	* Follow https://github.com/mkpark2017/Docker_cuda_cudnn/tree/main/GYM_VNC
+
+(* optional)
 
 
+3. Test an example code and tensorboard
