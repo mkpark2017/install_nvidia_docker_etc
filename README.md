@@ -9,7 +9,7 @@
 		blacklist nouveau 
 		options nouveau modeset=0
 		```
-		6. `sudo update-initramf -u `
+		6. `sudo update-initramfs -u `
 		7. `sudo service gdm stop `
 	2. Install ubuntu driver
 		1. `sudo add-apt-repository ppa:graphics-drivers `
