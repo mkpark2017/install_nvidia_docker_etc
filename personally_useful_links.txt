@@ -1,0 +1,2 @@
+creating video: https://jckantor.github.io/CBE30338/A.03-Animation-in-Jupyter-Notebooks.html
+* By using module animation for example "from matplotlib import animation"
