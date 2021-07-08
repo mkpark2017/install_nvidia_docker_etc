@@ -60,7 +60,7 @@
 		```
 		docker exec -it mk_gym bash
 		```
-		3. `cd /notebook`
+		3. `cd /notebooks`
 		4. `tensorboard --logdir=runs --port 6006 --host=0.0.0.0`
 		5. Open new browser and put `0.0.0.0:6006` on url
 
