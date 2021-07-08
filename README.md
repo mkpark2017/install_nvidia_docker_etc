@@ -18,7 +18,7 @@
 		4. Move to "Additional Drivers" tap
 		5. `sudo apt-get install nvidia-driver-460` (if you want to install "460" version)
 		6. `sudo reboot`
-		7. After reboot, check installation `$ nvidia-smi`
+		7. After reboot, check installation `nvidia-smi`
 	3. Install nvidia-docker (refer. https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
 		1. `sudo apt-get update`
 		2. `sudo apt-get install -y apt-transport-https ca-certificates curl gnupg-agent software-properties-common`
@@ -31,7 +31,7 @@
    		4. `sudo apt-get update`
    		5. `sudo apt-get install -y nvidia-docker2`
    		6. `sudo systemctl restart docker`
-   		7. Finally check installation `$ sudo docker run --rm --gpus all nvidia/cuda:11.0-base nvidia-smi`
+   		7. Finally check installation `sudo docker run --rm --gpus all nvidia/cuda:11.0-base nvidia-smi`
 	4. Docker post-installation (refer. https://docs.docker.com/engine/install/linux-postinstall/)
 		1. `sudo groupadd docker`
 		2. `sudo usermod -aG docker $USER`
