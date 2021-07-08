@@ -63,6 +63,6 @@
 		5. Open new browser and put `0.0.0.0:6006` on url
 
 4. VNC will be used for ROS and Gazebo later (not updated all yet)
-	1. Download VNC viewer from `https://www.realvnc.com/en/connect/download/viewer/`
+	1. Download VNC viewer from https://www.realvnc.com/en/connect/download/viewer/
 	2. Install and run it
 	3. Put `0.0.0.0:5900` on url
