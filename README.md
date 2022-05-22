@@ -52,7 +52,7 @@
 
 
 3. Test an example pytorch code and tensorboard
-	1. Let's use jupyter. Open browser (e.g., google chrome) and put `0.0.0.0:8888` on url
+	1. Let's use jupyter. Open browser (e.g., google chrome) and put `0.0.0.0:8898` on url
 	2. Run `example.ipynb`
 	3. Check the result on tensorboard
 		1. Open new terminal
@@ -61,10 +61,10 @@
 		docker exec -it mk_gym bash
 		```
 		3. `cd /notebooks`
-		4. `tensorboard --logdir=runs --port 6006 --host=0.0.0.0`
-		5. Open new browser and put `0.0.0.0:6006` on url
+		4. `tensorboard --logdir=runs --port 6016 --host=0.0.0.0`
+		5. Open new browser and put `0.0.0.0:6016` on url
 
 4. VNC will be used for ROS and Gazebo later (not updated all yet)
 	1. Download VNC viewer from https://www.realvnc.com/en/connect/download/viewer/
 	2. Install and run it
-	3. Put `0.0.0.0:5900` on url
+	3. Put `0.0.0.0:5910` on url
